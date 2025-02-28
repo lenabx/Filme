@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();  //esquerda estamos informando a necessidade de uma variável que saiba referenciar um objeto do tipo Filme, direita é onde criamos o espaço na memória
+        Filme meuFilme = new Filme();
         meuFilme.nome = "Interestelar";
         meuFilme.anoDeLancamento = 2014;
         meuFilme.duracaoEmMinutos = 169;
